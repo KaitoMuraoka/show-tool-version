@@ -2,10 +2,10 @@
 
 typeset -A tools
 tools=(
-  "Homebrew" "brew -v"
-  "CocoaPods" "pod --version"
-  "Homebrew List" "brew list --version"
-  "Docker" "docker --version"
+  "Homebrew"       "brew -v"
+  "CocoaPods"      "pod --version"
+  "Homebrew List"  "brew list --version"
+  "Docker"         "docker --version"
 )
 
 for tool_name version_commmand in "${(@kv)tools}"; do
