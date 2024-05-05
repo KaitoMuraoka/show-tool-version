@@ -2,6 +2,7 @@
 
 typeset -A tools
 tools=(
+  "💻 動作環境" "sw_vers"
   "🍺 Homebrew"       "brew -v"
   "🫘 CocoaPods"      "pod --version"
   "🍻 Homebrew List"  "brew list --version"
