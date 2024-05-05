@@ -7,7 +7,6 @@ tools=(
   "🫘 CocoaPods"      "pod --version"
   "🍻 Homebrew List"  "brew list --version"
   " Docker"         "docker --version"
-  " git" "git --version"
   " NeoVim" "nvim --version"
 
   # lanugage
